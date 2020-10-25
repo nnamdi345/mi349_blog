@@ -1,0 +1,48 @@
+body {
+    background-color: wheat;
+    max-width: 1000px;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    padding: 10px;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: sans-serif;
+}
+
+p {
+    line-height: 2em;
+}
+
+#blog {
+    border-top: 1px dotted grey;
+}
+
+.blog-post {
+    border-bottom: 1px dotted grey;
+}
+
+.pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pic img {
+    display: flex;
+    border: 2px solid grey;
+    border-radius: 15px;
+}
