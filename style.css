@@ -29,6 +29,7 @@ p {
 
 #blog {
     border-top: 1px dotted grey;
+    display: flex;
 }
 
 .blog-post {
@@ -45,4 +46,27 @@ p {
     display: flex;
     border: 2px solid grey;
     border-radius: 15px;
+    width: 50%;
+    height: auto;
+}
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background: grey;
+}
+
+article{
+    padding: 20px;
+    margin: 20px;
+}
+
+.prt {
+    display: flex;
+    border: 2px solid grey;
+    border-radius: 15px;
+    width: 60%;
+    height: auto;
+    float: right;
 }
