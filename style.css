@@ -70,3 +70,19 @@ article{
     height: auto;
     float: right;
 }
+
+/* Media Queries*/
+
+@media (max-width: 400px) {
+    body {
+        background-color: whitesmoke;
+    }
+
+    h1 {
+        color: teal;
+    }
+
+    #blog {
+        display: block;
+    }
+}
